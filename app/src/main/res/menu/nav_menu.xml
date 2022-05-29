@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/nav_Misproductos"
+        android:icon="@drawable/ic_cube"
+        android:iconTint="@drawable/selector_icon"
+        android:title="Mis productos"
+        android:checkable="true" />
+
+    <item
+        android:id="@+id/nav_perfil"
+        android:icon="@drawable/ic_account"
+        android:iconTint="@drawable/selector_icon"
+        android:title="Perfil"
+        android:checkable="true" />
+
+    <item
+        android:id="@+id/nav_configuraciones"
+        android:icon="@drawable/ic_account_cog"
+        android:iconTint="@drawable/selector_icon"
+        android:title="Configuraciones"
+        android:checkable="true" />
+
+
+</menu>

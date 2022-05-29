@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "854187888812",
+    "project_id": "testpractico-cf1b6",
+    "storage_bucket": "testpractico-cf1b6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:854187888812:android:b4660a8578fef905598f09",
+        "android_client_info": {
+          "package_name": "com.example.testpractico.ui.activitys"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "854187888812-ld4j2njojuv5aokm7ucqrt5vibokc268.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDj1UcHlkDdt3mYHKHhoTkZAno1jfXi7jw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "854187888812-ld4j2njojuv5aokm7ucqrt5vibokc268.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

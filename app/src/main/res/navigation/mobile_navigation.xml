@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation.xml"
+    app:startDestination="@id/nav_Misproductos">
+
+    <fragment
+        android:id="@+id/nav_Misproductos"
+        android:name="com.example.testpractico.ui.fragments.FragMis_productos"
+        tools:layout="@layout/fragment_mis_productos" >
+        <action
+            android:id="@+id/action_nav_Misproductos_to_nav_detallesProductos"
+            app:destination="@id/nav_detallesProductos" />
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/nav_perfil"
+        android:name="com.example.testpractico.ui.fragments.FragProfile"
+        tools:layout="@layout/fragment_profile" />
+
+    <fragment
+        android:id="@+id/nav_configuraciones"
+        android:name="com.example.testpractico.ui.fragments.FragConfiguraciones"
+        tools:layout="@layout/fragment_configuraciones" />
+
+    <fragment
+        android:id="@+id/nav_detallesProductos"
+        android:name="com.example.testpractico.ui.fragments.FragDetallesProductos"
+        tools:layout="@layout/fragmentdetallesproductos">
+        <action
+            android:id="@+id/action_nav_detallesProductos_to_nav_Misproductos2"
+            app:destination="@id/nav_Misproductos" />
+    </fragment>
+
+
+</navigation>
